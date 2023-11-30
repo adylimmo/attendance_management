@@ -6,6 +6,7 @@ import (
 	"github.com/raihaninfo/attendance_magagment/controllers"
 	"github.com/raihaninfo/attendance_magagment/db"
 	_ "github.com/raihaninfo/attendance_magagment/docs"
+	"github.com/gin-gonic/gin"
 )
 
 var Port string = ":3000"
