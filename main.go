@@ -8,7 +8,7 @@ import (
 	_ "github.com/raihaninfo/attendance_magagment/docs"
 )
 
-var Port string = ":8082"
+var Port string = ":3000"
 
 func main() {
 	DB := db.Init()
