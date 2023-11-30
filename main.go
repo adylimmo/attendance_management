@@ -8,9 +8,10 @@ import (
 	_ "github.com/raihaninfo/attendance_magagment/docs"
 )
 
-
+var Port string = ":8082"
 
 func main() {
 	DB := db.Init()
-	controllers.Controller( DB)
+	fmt.Println("Listing to port : ", Port)
+	controllers.Controller(Port, DB)
 }
