@@ -12,6 +12,5 @@ import (
 
 func main() {
 	DB := db.Init()
-	fmt.Println("Listing to port : ", Port)
 	controllers.Controller( DB)
 }
