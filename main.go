@@ -9,7 +9,7 @@ import (
 	
 )
 
-var Port string = ":3000"
+var Port string = ":"
 
 func main() {
 	DB := db.Init()
