@@ -9,7 +9,7 @@ import (
 )
 
 func Init() *gorm.DB {
-	dbURL := "postgres://uc8j6b9b7pjkmbgcuswp:oMjLYeottA8yZ6aErX5PriUKjhxKuf@bqdkti7snuksoswq37kj-postgresql.services.clever-cloud.com/bqdkti7snuksoswq37kj"
+	dbURL := "postgres://uc8j6b9b7pjkmbgcuswp:oMjLYeottA8yZ6aErX5PriUKjhxKuf@bqdkti7snuksoswq37kj-postgresql.services.clever-cloud.com:50013/bqdkti7snuksoswq37kj"
 
 	db, err := gorm.Open(postgres.Open(dbURL), &gorm.Config{})
 
